@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4eeee;
+}
+
+nav {
+    background-color: #850be9;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    display: block;
+  }
+  
+  a:hover {
+    background-color: #c4ef07;
+    border-radius: 20px;
+  }
+  
+
+
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #a307e1;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
